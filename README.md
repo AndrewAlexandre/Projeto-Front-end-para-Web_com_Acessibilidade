@@ -112,15 +112,7 @@ Troca para mensagem de sucesso sem recarregar a página
 UX fluida e moderna
 
 <img width="572" height="383" alt="image" src="https://github.com/user-attachments/assets/68c798d0-f079-40d5-b71d-42c8bea1f9fc" />
-
-🗺 Mapa de Páginas
-
-Arquivo HTML	Conteúdo	Destaques
-
-index.html	Apresentação da ONG, missão e estatísticas	Chamada de ação / contato
-Projeto.html	Programas da ONG	Lista de resultados e números
-galeria.html	Galeria de gatos adotados	CSS Grid responsivo
-Cadastro.html	Formulário de voluntários, doadores e adotantes	Máscaras + Mini-SPA
+<img width="597" height="182" alt="image" src="https://github.com/user-attachments/assets/7e0ca13f-e685-46bd-ae5b-77026d866720" />
 
 ⚙ Como Executar
 
