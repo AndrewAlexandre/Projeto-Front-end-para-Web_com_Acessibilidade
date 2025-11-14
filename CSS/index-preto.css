@@ -1,0 +1,90 @@
+/* ARQUIVO DE TEMA: ALTO CONTRASTE / MODO ESCURO     */
+
+/* Cor de fundo base: Preto (ideal para alto contraste) */
+body.high-contrast-mode {
+    background: #000000 !important; /* importante para garantir a sobreposição */
+    color: #006400 !important; /* Texto verde */
+}
+
+/* Garante que todos os elementos internos usem cores de alto contraste */
+body.high-contrast-mode * {
+    color: inherit !important;
+}
+
+/* Header e navegação: Fundo muito escuro e texto verde */
+body.high-contrast-mode header {
+    background: #111111 !important;
+    border-bottom: 4px solid #006400 !important; /* Borda  de destaque verde */
+}
+
+/* Links em geral */
+body.high-contrast-mode a {
+    color: #00FFFF !important; /* Ciano de alto contraste para links */
+    text-decoration: underline !important;
+}
+
+/* Foco e Hover dos Links de navegação (Essencial para acessibilidade de teclado) */
+body.high-contrast-mode .main-nav a:hover,
+body.high-contrast-mode .main-nav a:focus {
+    color: #000000 !important;
+    background-color: #111111 !important;
+    border: 1px solid #006400;
+    outline: 3px solid #006400 !important; /* Foco visível */
+}
+
+/* Botão de Acessibilidade */
+body.high-contrast-mode #toggle-contrast {
+    background-color: #111111 !important;
+    color: #006400 !important;
+    border: 2px solid #006400 !important;
+    font-weight: bold;
+}
+
+body.high-contrast-mode #toggle-contrast:focus {
+    outline: 3px solid #006400 !important; /* Foco extra chamativo */
+}
+
+/* Títulos */
+body.high-contrast-mode h1,
+body.high-contrast-mode h2,
+body.high-contrast-mode h3 {
+    color: #006400 !important; /* Títulos em verde  */
+}
+
+/* Seções da Main */
+body.high-contrast-mode main section {
+    background: #1a1a1a !important;
+    color: #006400 !important;
+    border: 1px solid #006400;
+    padding: 2rem; 
+}
+
+/* Detalhes de listas */
+body.high-contrast-mode ul li {
+    border-left: 5px solid #006400 !important; /* Detalhe em verde */
+}
+
+/* Footer */
+body.high-contrast-mode footer {
+    background: #111111 !important;
+    color: #006400 !important;
+    border-top: 4px solid #006400 !important;
+}
+
+/* Links de Ação (botões) */
+body.high-contrast-mode .action-link,
+body.high-contrast-mode .botao-adoção,
+body.high-contrast-mode button[type="submit"] {
+    background-color: #006400 !important;
+    color: #000000 !important;
+    border: 2px solid #111111 !important;
+    font-weight: bold !important;
+    padding: 10px 20px !important;
+    text-decoration: none !important;
+}
+
+body.high-contrast-mode .action-link:focus,
+body.high-contrast-mode .botao-adoção:focus,
+body.high-contrast-mode button[type="submit"]:focus {
+    outline: 3px solid #006400!important;
+}

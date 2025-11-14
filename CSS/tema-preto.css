@@ -1,0 +1,81 @@
+/* ARQUIVO DE TEMA: ALTO CONTRASTE / MODO ESCURO     */
+/* Garantindo WCAG 2.1 AA (Contraste 4.5:1)          */
+
+/* Cor de fundo base: Preto */
+body.high-contrast-mode {
+    background: #000000; /* importante para garantir a sobreposição */
+    color: #006400; /* Texto verde */
+}
+
+/* Headers e navegação: Fundo muito escuro e texto destacado */
+header.high-contrast-mode {
+    background: #111111;
+    border-bottom: 4px solid #006400; /* Borda  de destaque verde */
+}
+
+.logo-area h1.high-contrast-mode {
+    color: #006400;
+}
+
+/* Links de navegação */
+.main-nav a.high-contrast-mode {
+    color: #006400; /* verde de alto contraste */
+    border: 1px solid transparent;
+    transition: all 0.2s;
+}
+
+/* Foco e Hover dos Links de navegação (Essencial para acessibilidade de teclado) */
+.main-nav a.high-contrast-mode:hover,
+.main-nav a.high-contrast-mode:focus {
+    color: #FFFFFF;
+    background-color: #006400;
+    border: 1px solid #006400;
+    outline: 3px solid #006400; /* Foco visível */
+}
+
+/* Botão de Acessibilidade */
+#toggle-contrast.high-contrast-mode {
+    background-color: #006400;
+    color: #000000;
+    border: 2px solid #006400;
+    font-weight: bold;
+}
+
+#toggle-contrast.high-contrast-mode:focus {
+    outline: 3px solid #006400; /* Foco extra chamativo */
+}
+
+/* Seções da Main */
+main section.high-contrast-mode {
+    background: #1a1a1a;
+    color: #006400;
+    border: 1px solid #006400;
+}
+
+main section h2.high-contrast-mode {
+    color: #006400; /* Títulos em  */
+    border-left: 5px solid #006400; /* Detalhe em verde */
+}
+
+/* Lista de Sucesso (index.html) */
+section:nth-child(3) ul li p.high-contrast-mode {
+    color: #006400;
+    border-left: 5px solid #006400;
+}
+
+/* Endereço e Contato */
+address.high-contrast-mode {
+    background: #222222;
+    color: #006400;
+    border: 1px solid #006400;
+}
+address a.high-contrast-mode {
+    color: #00FFFF; /* Ciano de alto contraste para links */
+}
+
+/* Footer */
+footer.high-contrast-mode {
+    background: #111111;
+    color: #006400;
+    border-top: 4px solid #006400;
+}
