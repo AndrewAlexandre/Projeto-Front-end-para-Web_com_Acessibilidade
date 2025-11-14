@@ -111,23 +111,7 @@ Troca para mensagem de sucesso sem recarregar a página
 
 UX fluida e moderna
 
-📁 Estrutura de Arquivos
-
-/
-├── index.html           # Página inicial (MPA)
-├── Projeto.html         # Detalhamento da ONG
-├── galeria.html         # Galeria com CSS Grid
-├── Cadastro.html        # Página com Mini-SPA
-│
-├── CSS/
-│   └── estilos.css      # Estilização completa do projeto
-│
-├── JS/
-│   ├── mascaras.js      # Máscaras automáticas para inputs
-│   └── cadastro-spa.js  # Lógica do Mini-SPA
-│   └── tema-preto.js
-└── IMG/                 # Imagens e logo
-
+<img width="572" height="383" alt="image" src="https://github.com/user-attachments/assets/68c798d0-f079-40d5-b71d-42c8bea1f9fc" />
 
 🗺 Mapa de Páginas
 
